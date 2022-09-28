@@ -14,4 +14,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
         with:
           organization: "sparkleo-io"
-          team_slugs: "Test"
+          team_slugs: "test"
