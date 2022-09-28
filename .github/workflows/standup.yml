@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: MLH-Fellowship/create-standup-discussions@v1.x
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKE }}
         with:
           organization: "sparkleo-io"
           team_slugs: "test"
