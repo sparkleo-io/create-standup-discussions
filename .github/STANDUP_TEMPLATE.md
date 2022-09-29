@@ -1,13 +1,10 @@
-Share your daily standup update here. Respond to this discussion before your
-standup starts in the following format:
+Share your daily progress at the end of the day here. Respond to this
+discussion after you finish your work in the following format:
 
 ```
-**Yesterday**:
- - 
-
-**Today**:
+**What did you achieve today?**:
  - 
 
 **Blockers**:
- - 
+ -
 ```
