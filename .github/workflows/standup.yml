@@ -2,8 +2,7 @@ name: Create Daily Standup Discussions
 
 on:
   schedule:
-    - cron:  '* * * * 1-5' # Runs M-F at 12:01am UTC
-  workflow_dispatch:
+    - cron:  '25 5 * * 1-5' # Runs M-F at 12:01am UTC
 
 jobs:
   create_discussions:
