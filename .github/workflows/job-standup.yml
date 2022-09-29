@@ -1,4 +1,4 @@
-name: Create Daily Standup Discussions
+name: Create Daily Standup Discussions (Job)
 
 on:
   schedule:
