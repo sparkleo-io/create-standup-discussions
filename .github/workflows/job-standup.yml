@@ -1,0 +1,19 @@
+name: Create Daily Standup Discussions
+
+on:
+  schedule:
+    - cron:  '0 7 * * 1-5' # Runs M-F at 7:00am UTC
+  workflow_dispatch:
+
+jobs:
+  create_discussions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: MLH-Fellowship/create-standup-discussions@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
+        with:
+          filename: "STANDUP_TEMPLATE.md"
+          organization: "sparkleo-io"
+          team_slugs: "development"
