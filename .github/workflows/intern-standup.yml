@@ -13,6 +13,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
         with:
-          filename: "INTERNSHIP_STANDUP_TEMPLATE.md"
+          filename: ".github/INTERNSHIP_STANDUP_TEMPLATE.md"
           organization: "sparkleo-io"
           team_slugs: "design, marketing"
